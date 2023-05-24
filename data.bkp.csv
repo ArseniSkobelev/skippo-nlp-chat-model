@@ -1,0 +1,108 @@
+﻿RawInputData,InputData,Service,Method,KubernetesObjectType,KubernetesObjectName,DockerImage,DockerImageVersion,KubernetesNamespace,KubernetesGracePeriodInSeconds,Function
+create kubernetes pod,create kubernetes pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+could i create a kubernetes pod?,could i create a kubernetes pod?,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+i want to create pod in kubernetes,i want to create pod inkubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+i want to create pod,i want to create pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+create pod,create pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+pod in kubernetes create,pod in kubernetes create,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+pod create in kubernetes,pod create in kubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+new kubernetes pod,new kubernetes pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+new pod in kubernetes,new pod in kubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+please create a new pod in kubernetes,please create a new pod in kubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+kubernetes api post /pods,kubernetes api post /pods,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+create kubernetes pod with the api,create kubernetes pod with the api,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+please create kubernetes pod,please create kubernetes pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+please kubernetes pod create,please kubernetes pod create,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+please pod create kubernetes,please pod create kubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+pod create kubernetes,pod create kubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+pod create kubernetes,pod create kubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+i need a new pod in kubernetes,i need a new pod in kubernetes,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+need a new kubernetes pod,need a new kubernetes pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+kubernetes new pod,kubernetes new pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+save new kubernetes pod,save new kubernetes pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+save kubernetes pod,save kubernetes pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+save pod,save pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+save new pod,save new pod,Kubernetes,Create,Pod,,,,,,Kubernetes.Create.Pod
+Create a Kubernetes pod named ""my-pod"" with image ""nginx"".,""create a kubernetes pod named "my-pod" with image "nginx".,Kubernetes,Create,Pod,my-pod,nginx,latest,,,Kubernetes.Create.Pod
+Deploy a new pod in the Kubernetes cluster using the image ""my-app:latest"".,""deploy a new pod in the kubernetes cluster using the image "my-app:latest".,Kubernetes,Create,Pod,,my-app,latest,,,Kubernetes.Create.Pod
+Instantiate a Kubernetes pod called ""frontend"" using the Docker image ""frontend:v1.0"".,""instantiate a kubernetes pod called "frontend" using the docker image "frontend:v1.0".,Kubernetes,Create,Pod,frontend,fronend,v1.0,,,Kubernetes.Create.Pod
+Start a pod named ""backend"" running the container image ""my-backend-app:latest"".,""start a pod named "backend" running the container image "my-backend-app:latest".,Kubernetes,Create,Pod,backend,my-backend-app,latest,,,Kubernetes.Create.Pod
+Launch a Kubernetes pod called ""worker"" using the container image ""worker-app:v2.1"".,""launch a kubernetes pod called "worker" using the container image "worker-app:v2.1".,Kubernetes,Create,Pod,worker,worker-app,v2.1,,,Kubernetes.Create.Pod
+Spin up a new pod named ""database"" utilizing the image ""postgres:12.5"".,""spin up a new pod named "database" utilizing the image "postgres:12.5".,Kubernetes,Create,Pod,database,postgres,12.5,,,Kubernetes.Create.Pod
+Deploy a pod in the cluster with the name ""api"" and the image ""my-api-app:v3.2"".,""deploy a pod in the cluster with the name "api" and the image "my-api-app:v3.2".,Kubernetes,Create,Pod,api,my-api-app,v3.2,,,Kubernetes.Create.Pod
+Instantiate a Kubernetes pod named ""redis"" running the container image ""redis:latest"".,""instantiate a kubernetes pod named "redis" running the container image "redis:latest".,Kubernetes,Create,Pod,redis,redis,latest,,,Kubernetes.Create.Pod
+Create a pod in the cluster called ""logger"" using the image ""logger-app:v1.4"".,""create a pod in the cluster called "logger" using the image "logger-app:v1.4".,Kubernetes,Create,Pod,logger,logger-app,v1.4,,,Kubernetes.Create.Pod
+Launch a new pod named ""monitoring"" with the container image ""prometheus:latest"".,""launch a new pod named "monitoring" with the container image "prometheus:latest".,Kubernetes,Create,Pod,monitoring,prometheus,latest,,,Kubernetes.Create.Pod
+Deploy a pod named ""web-server"" using the image ""nginx:1.21"".,""deploy a pod named "web-server" using the image "nginx:1.21".,Kubernetes,Create,Pod,web-server,nginx,1.21,,,Kubernetes.Create.Pod
+Create a Kubernetes pod called ""api-server"" with the container image ""my-api-app:v2.0"".,""create a kubernetes pod called "api-server" with the container image "my-api-app:v2.0".,Kubernetes,Create,Pod,api-server,my-api-app,v2.0,,,Kubernetes.Create.Pod
+Instantiate a pod named ""database"" using the image ""mysql:8.0"".,""instantiate a pod named "database" using the image "mysql:8.0".,Kubernetes,Create,Pod,database,mysql,8.0,,,Kubernetes.Create.Pod
+Launch a Kubernetes pod called ""cache"" with the container image ""redis:latest"".,""launch a kubernetes pod called "cache" with the container image "redis:latest".,Kubernetes,Create,Pod,cache,redis,latest,,,Kubernetes.Create.Pod
+Start a pod named ""worker-1"" running the container image ""worker-app:v1.2"".,""start a pod named "worker-1" running the container image "worker-app:v1.2".,Kubernetes,Create,Pod,worker-1,worker-app,v1.2,,,Kubernetes.Create.Pod
+Deploy a new pod in the cluster with the name ""frontend"" and the image ""frontend-app:v1.5"".,""deploy a new pod in the cluster with the name "frontend" and the image "frontend-app:v1.5".,Kubernetes,Create,Pod,frontend,frontend-app,v1.5,,,Kubernetes.Create.Pod
+Spin up a Kubernetes pod named ""backend-1"" utilizing the image ""backend-app:latest"".,""spin up a kubernetes pod named "backend-1" utilizing the image "backend-app:latest".,Kubernetes,Create,Pod,backend-1,backend-app,latest,,,Kubernetes.Create.Pod
+Create a pod in the cluster called ""logging"" using the image ""logstash:7.10"".,""create a pod in the cluster called "logging" using the image "logstash:7.10".,Kubernetes,Create,Pod,logging,logstash,7.10,,,Kubernetes.Create.Pod
+Instantiate a Kubernetes pod named ""mailer"" running the container image ""mailer-app:v3.0"".,""instantiate a kubernetes pod named "mailer" running the container image "mailer-app:v3.0".,Kubernetes,Create,Pod,mailer,mailer-app,v3.0,,,Kubernetes.Create.Pod
+Launch a pod named ""analytics"" using the image ""analytics-app:v2.3"".,""launch a pod named "analytics" using the image "analytics-app:v2.3".,Kubernetes,Create,Pod,analytics,analytics-app,v2.3,,,Kubernetes.Create.Pod
+Deploy a Kubernetes pod called ""scheduler"" with the container image ""scheduler-app:v1.1"".,""deploy a kubernetes pod called "scheduler" with the container image "scheduler-app:v1.1".,Kubernetes,Create,Pod,scheduler,scheduler-app,v1.1,,,Kubernetes.Create.Pod
+Start a new pod named ""monitor"" utilizing the image ""monitor-app:latest"".,""start a new pod named "monitor" utilizing the image "monitor-app:latest".,Kubernetes,Create,Pod,monitor,monitor-app,latest,,,Kubernetes.Create.Pod
+Create a pod in the cluster called ""load-balancer"" with the image ""haproxy:2.2"".,""create a pod in the cluster called "load-balancer" with the image "haproxy:2.2".,Kubernetes,Create,Pod,load-balancer,haproxy,2.2,,,Kubernetes.Create.Pod
+Instantiate a Kubernetes pod named ""backup"" using the container image ""backup-app:v1.4"".,""instantiate a kubernetes pod named "backup" using the container image "backup-app:v1.4".,Kubernetes,Create,Pod,backup,backup-app,v1.4,,,Kubernetes.Create.Pod
+Launch a pod named ""search"" running the image ""elasticsearch:7.13"".,""launch a pod named "search" running the image "elasticsearch:7.13".,Kubernetes,Create,Pod,search,elasticsearch,7.13,,,Kubernetes.Create.Pod
+New pod nginx,new pod nginx,Kubernetes,Create,Pod,nginx,,,,,Kubernetes.Create.Pod
+Deploy a new pod in the cluster with the name ""auth"" and the image ""auth-app:v2.2"".,""deploy a new pod in the cluster with the name "auth" and the image "auth-app:v2.2".,Kubernetes,Create,Pod,auth,auth-app,v2.2,,,Kubernetes.Create.Pod
+delete kubernetes pod,delete kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+destroy kubernetes pod,destroy kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+I don’t need the kubernetes pod no more,i don’t need the kubernetes pod no more,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+can I delete the kubernetes pod,can i delete the kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+delete the kubernetes pod,delete the kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+kubernetes pod not used anymore,kubernetes pod not used anymore,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+no kubernetes pod,no kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+kubernetes pod delete,kubernetes pod delete,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+delete my kubernetes pod,delete my kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+useless kubernetes pod,useless kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+delete kubernetes pod please,delete kubernetes pod please,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+delete pod,delete pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+I don’t need the pod,i don’t need the pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+pod is useless,pod is useless,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+delete pod please,delete pod please,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+remove pod,remove pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+remove kubernetes pod,remove kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+remove the kubernetes pod,remove the kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+kill kubernetes pod,kill kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+kill the kubernetes pod,kill the kubernetes pod,Kubernetes,Delete,Pod,,,,,,Kubernetes.Delete.Pod
+Delete the pod named ""my-pod"".,""delete the pod named "my-pod".,Kubernetes,Delete,Pod,my-pod,,,,,Kubernetes.Delete.Pod
+Remove the Kubernetes pod with the name ""frontend"".,""remove the kubernetes pod with the name "frontend".,Kubernetes,Delete,Pod,frontend,,,,,Kubernetes.Delete.Pod
+Terminate the pod running the container ""backend-app"".,""terminate the pod running the container "backend-app".,Kubernetes,Delete,Pod,backend-app,,,,,Kubernetes.Delete.Pod
+Delete the pod named ""app=worker"".,""delete the pod named "app=worker".,Kubernetes,Delete,Pod,app=worker,,,,,Kubernetes.Delete.Pod
+Remove the pod named ""database"" from the cluster.,""remove the pod named "database" from the cluster."",Kubernetes,Delete,Pod,database,,,,,Kubernetes.Delete.Pod
+Terminate the pod named ""api"".,""terminate the pod named "api".,Kubernetes,Delete,Pod,api,,,,,Kubernetes.Delete.Pod
+Delete the pod named ""logger"" in the namespace ""logging"".,""delete the pod named "logger" in the namespace "logging".,Kubernetes,Delete,Pod,logger,,,logging,,Kubernetes.Delete.Pod
+Remove the pod named ""tier=frontend"" in the namespace ""development"".,""remove the pod named "tier=frontend" in the namespace "development".,Kubernetes,Delete,Pod,tier=frontend,,,development,,Kubernetes.Delete.Pod
+Terminate the pod named ""my-app"" in the namespace ""default"".,""terminate the pod named "my-app" in the namespace "default".,Kubernetes,Delete,Pod,my-app,,,default,,Kubernetes.Delete.Pod
+Delete the pod named ""mailer"" in the namespace ""my-namespace"".,""delete the pod named "mailer" in the namespace "my-namespace".,Kubernetes,Delete,Pod,mailer,,,my-namespace,,Kubernetes.Delete.Pod
+Remove all pods named ""app=my-app"".,""remove all pods named "app=my-app".,Kubernetes,Delete,Pod,app=my-app,,,,,Kubernetes.Delete.Pod
+Terminate all pods named ""production"".,""terminate all pods named "production".,Kubernetes,Delete,Pod,production,,,,,Kubernetes.Delete.Pod
+Delete the pod named ""cache"" with grace period 30 seconds.,""delete the pod named "cache" with grace period 30 seconds."",Kubernetes,Delete,Pod,cache,,,,30,Kubernetes.Delete.Pod
+Remove the pod named ""tier=backend"" with grace period 60 seconds.,""remove the pod named "tier=backend" with grace period 60 seconds."",Kubernetes,Delete,Pod,tier=backend,,,,60,Kubernetes.Delete.Pod
+Terminate the pod named ""env=staging"" in the namespace ""my-namespace"".,""terminate the pod named "env=staging" in the namespace "my-namespace".,Kubernetes,Delete,Pod,env=staging,,,my-namespace,,Kubernetes.Delete.Pod
+Delete the pod named ""worker-1"" in the namespace ""my-namespace"" and propagate the deletion to its dependents.,""delete the pod named "worker-1" in the namespace "my-namespace" and propagate the deletion to its dependents."",Kubernetes,Delete,Pod,worker-1,,,my-namespace,,Kubernetes.Delete.Pod
+Remove the pod named ""app=analytics"" in the namespace ""monitoring"" and cascade the deletion.,""remove the pod named "app=analytics" in the namespace "monitoring" and cascade the deletion."",Kubernetes,Delete,Pod,app=analytics,,,monitoring,,Kubernetes.Delete.Pod
+Terminate the pod named ""tier=load-balancer"" in the namespace ""kube-system"" and force deletion.,""terminate the pod named "tier=load-balancer" in the namespace "kube-system" and force deletion."",Kubernetes,Delete,Pod,tier=load-balancer,,,kube-system,,Kubernetes.Delete.Pod
+Delete the pod named ""mailer"" in the namespace ""my-namespace"" with a grace period of 10 seconds and wait for deletion to complete.,""delete the pod named "mailer" in the namespace "my-namespace" with a grace period of 10 seconds and wait for deletion to complete."",Kubernetes,Delete,Pod,mailer,,,my-namespace,10,Kubernetes.Delete.Pod
+Remove the pod named ""app=search"" in the namespace ""default"" and wait until the pod is fully terminated.,""remove the pod named "app=search" in the namespace "default" and wait until the pod is fully terminated."",Kubernetes,Delete,Pod,app=search,,,default,,Kubernetes.Delete.Pod
+Terminate the pod named ""tier=auth"" in the namespace ""auth-system"" and wait for confirmation of deletion.,""terminate the pod named "tier=auth" in the namespace "auth-system" and wait for confirmation of deletion."",Kubernetes,Delete,Pod,tier=auth,,,auth-system,,Kubernetes.Delete.Pod
+Delete the pod named ""backup"" in the namespace ""my-namespace"" and immediately remove its associated resources.,""delete the pod named "backup" in the namespace "my-namespace" and immediately remove its associated resources."",Kubernetes,Delete,Pod,backup,,,my-namespace,,Kubernetes.Delete.Pod
+Remove all pods named ""app=monitor"" in the namespace ""monitoring"" and wait for the deletion process to finish.,""remove all pods named "app=monitor" in the namespace "monitoring" and wait for the deletion process to finish."",Kubernetes,Delete,Pod,app=monitor,,,monitoring,,Kubernetes.Delete.Pod
+Terminate all pods in the namespace ""kube-system"" and forcefully remove any finalizers delaying deletion.,""terminate all pods in the namespace "kube-system" and forcefully remove any finalizers delaying deletion."",Kubernetes,Delete,Pod,,,,kube-system,,Kubernetes.Delete.Pod
+Delete the pod named ""web-server"" with a grace period of 5 seconds ensuring no interruption in service.,""delete the pod named "web-server" with a grace period of 5 seconds ensuring no interruption in service."",Kubernetes,Delete,Pod,web-server,,,,5,Kubernetes.Delete.Pod
+Remove the pod named ""app=api-server"" and wait for termination taking into account any pre-stop hooks.,""remove the pod named "app=api-server" and wait for termination taking into account any pre-stop hooks."",Kubernetes,Delete,Pod,app=api-server,,,,,Kubernetes.Delete.Pod
+Terminate the pod named ""tier=database"" and wait for pod deletion confirmation in the namespace ""data"".,""terminate the pod named "tier=database" and wait for pod deletion confirmation in the namespace "data".,Kubernetes,Delete,Pod,tier=database,,,data,,Kubernetes.Delete.Pod
+Delete the pod named ""cache-1"" in the namespace ""caching"" and propagate the deletion to its associated volumes.,""delete the pod named "cache-1" in the namespace "caching" and propagate the deletion to its associated volumes."",Kubernetes,Delete,Pod,cache-1,,,caching,,Kubernetes.Delete.Pod
+Remove the pod named ""app=logger"" in the namespace ""logging"" and wait until all associated resources are cleaned up.,""remove the pod named "app=logger" in the namespace "logging" and wait until all associated resources are cleaned up."",Kubernetes,Delete,Pod,app=logger,,,logging,,Kubernetes.Delete.Pod
+Terminate the pod named ""env=testing"" in the namespace ""default"" and ensure that any termination grace period is respected.,""terminate the pod named "env=testing" in the namespace "default" and ensure that any termination grace period is respected."",Kubernetes,Delete,Pod,env=testing,,,default,,Kubernetes.Delete.Pod
+Kill kubernetes pod nginx,kill kubernetes pod nginx,Kubernetes,Delete,Pod,nginx,,,,,Kubernetes.Delete.Pod
+delete kubernetes pod nginx,delete kubernetes pod nginx,Kubernetes,Delete,Pod,nginx,,,,,Kubernetes.Delete.Pod
+delete kubernetes pod database,delete kubernetes pod database,Kubernetes,Delete,Pod,database,,,,,Kubernetes.Delete.Pod
+kill pod nginx,kill pod nginx,Kubernetes,Delete,Pod,nginx,,,,,Kubernetes.Delete.Pod
+kill pod db-pod,kill pod db-pod,Kubernetes,Delete,Pod,db-pod,,,,,Kubernetes.Delete.Pod
+delete pod nginx,delete pod nginx,Kubernetes,Delete,Pod,nginx,,,,,Kubernetes.Delete.Pod
