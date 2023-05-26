@@ -23,33 +23,6 @@ save new kubernetes pod;Kubernetes;Create;Pod;;;;;;Kubernetes.Create.Pod
 save kubernetes pod;Kubernetes;Create;Pod;;;;;;Kubernetes.Create.Pod
 save pod;Kubernetes;Create;Pod;;;;;;Kubernetes.Create.Pod
 save new pod;Kubernetes;Create;Pod;;;;;;Kubernetes.Create.Pod
-"create a kubernetes pod named ""my-pod"" with image ""nginx"".";Kubernetes;Create;Pod;my-pod;nginx;latest;;;Kubernetes.Create.Pod
-"deploy a new pod in the kubernetes cluster using the image ""my-app:latest"".";Kubernetes;Create;Pod;;my-app;latest;;;Kubernetes.Create.Pod
-"instantiate a kubernetes pod called ""frontend"" using the docker image ""frontend:v1.0"".";Kubernetes;Create;Pod;frontend;fronend;v1.0;;;Kubernetes.Create.Pod
-"start a pod named ""backend"" running the container image ""my-backend-app:latest"".";Kubernetes;Create;Pod;backend;my-backend-app;latest;;;Kubernetes.Create.Pod
-"launch a kubernetes pod called ""worker"" using the container image ""worker-app:v2.1"".";Kubernetes;Create;Pod;worker;worker-app;v2.1;;;Kubernetes.Create.Pod
-"spin up a new pod named ""database"" utilizing the image ""postgres:12.5"".";Kubernetes;Create;Pod;database;postgres;12.5;;;Kubernetes.Create.Pod
-"deploy a pod in the cluster with the name ""api"" and the image ""my-api-app:v3.2"".";Kubernetes;Create;Pod;api;my-api-app;v3.2;;;Kubernetes.Create.Pod
-"instantiate a kubernetes pod named ""redis"" running the container image ""redis:latest"".";Kubernetes;Create;Pod;redis;redis;latest;;;Kubernetes.Create.Pod
-"create a pod in the cluster called ""logger"" using the image ""logger-app:v1.4"".";Kubernetes;Create;Pod;logger;logger-app;v1.4;;;Kubernetes.Create.Pod
-"launch a new pod named ""monitoring"" with the container image ""prometheus:latest"".";Kubernetes;Create;Pod;monitoring;prometheus;latest;;;Kubernetes.Create.Pod
-"deploy a pod named ""web-server"" using the image ""nginx:1.21"".";Kubernetes;Create;Pod;web-server;nginx;1.21;;;Kubernetes.Create.Pod
-"create a kubernetes pod called ""api-server"" with the container image ""my-api-app:v2.0"".";Kubernetes;Create;Pod;api-server;my-api-app;v2.0;;;Kubernetes.Create.Pod
-"instantiate a pod named ""database"" using the image ""mysql:8.0"".";Kubernetes;Create;Pod;database;mysql;8.0;;;Kubernetes.Create.Pod
-"launch a kubernetes pod called ""cache"" with the container image ""redis:latest"".";Kubernetes;Create;Pod;cache;redis;latest;;;Kubernetes.Create.Pod
-"start a pod named ""worker-1"" running the container image ""worker-app:v1.2"".";Kubernetes;Create;Pod;worker-1;worker-app;v1.2;;;Kubernetes.Create.Pod
-"deploy a new pod in the cluster with the name ""frontend"" and the image ""frontend-app:v1.5"".";Kubernetes;Create;Pod;frontend;frontend-app;v1.5;;;Kubernetes.Create.Pod
-"spin up a kubernetes pod named ""backend-1"" utilizing the image ""backend-app:latest"".";Kubernetes;Create;Pod;backend-1;backend-app;latest;;;Kubernetes.Create.Pod
-"create a pod in the cluster called ""logging"" using the image ""logstash:7.10"".";Kubernetes;Create;Pod;logging;logstash;7.10;;;Kubernetes.Create.Pod
-"instantiate a kubernetes pod named ""mailer"" running the container image ""mailer-app:v3.0"".";Kubernetes;Create;Pod;mailer;mailer-app;v3.0;;;Kubernetes.Create.Pod
-"launch a pod named ""analytics"" using the image ""analytics-app:v2.3"".";Kubernetes;Create;Pod;analytics;analytics-app;v2.3;;;Kubernetes.Create.Pod
-"deploy a kubernetes pod called ""scheduler"" with the container image ""scheduler-app:v1.1"".";Kubernetes;Create;Pod;scheduler;scheduler-app;v1.1;;;Kubernetes.Create.Pod
-"start a new pod named ""monitor"" utilizing the image ""monitor-app:latest"".";Kubernetes;Create;Pod;monitor;monitor-app;latest;;;Kubernetes.Create.Pod
-"create a pod in the cluster called ""load-balancer"" with the image ""haproxy:2.2"".";Kubernetes;Create;Pod;load-balancer;haproxy;2.2;;;Kubernetes.Create.Pod
-"instantiate a kubernetes pod named ""backup"" using the container image ""backup-app:v1.4"".";Kubernetes;Create;Pod;backup;backup-app;v1.4;;;Kubernetes.Create.Pod
-"launch a pod named ""search"" running the image ""elasticsearch:7.13"".";Kubernetes;Create;Pod;search;elasticsearch;7.13;;;Kubernetes.Create.Pod
-new pod nginx;Kubernetes;Create;Pod;nginx;;;;;Kubernetes.Create.Pod
-"deploy a new pod in the cluster with the name ""auth"" and the image ""auth-app:v2.2"".";Kubernetes;Create;Pod;auth;auth-app;v2.2;;;Kubernetes.Create.Pod
 delete kubernetes pod;Kubernetes;Delete;Pod;;;;;;Kubernetes.Delete.Pod
 destroy kubernetes pod;Kubernetes;Delete;Pod;;;;;;Kubernetes.Delete.Pod
 i don�t need the kubernetes pod no more;Kubernetes;Delete;Pod;;;;;;Kubernetes.Delete.Pod
@@ -315,12 +288,44 @@ Remove a Kubernetes persistent volume claim for reliable data storage.;;;;;;;;;K
 Delete a Kubernetes volume with extended persistence.;;;;;;;;;Kubernetes.Delete.PersistentVolume
 Remove a Kubernetes persistent storage class for persistent data storage.;;;;;;;;;Kubernetes.Delete.PersistentVolume
 I need a persistent volume;;;;;;;;;Kubernetes.Create.PersistentVolume
-create persisten volume;;;;;;;;;Kubernetes.Create.PersistentVolume
+create persistent volume;;;;;;;;;Kubernetes.Create.PersistentVolume
 create volume;;;;;;;;;Kubernetes.Create.PersistentVolume
-I need a new volume;;;;;;;;;Kubernetes.Create.PersistentVolume
+I need a volume;;;;;;;;;Kubernetes.Create.PersistentVolume
 I need a volume for my pod;;;;;;;;;Kubernetes.Create.PersistentVolume
-I need a new persistent volume for my new pod;;;;;;;;;Kubernetes.Create.PersistentVolume
-create a volume for my new pod;;;;;;;;;Kubernetes.Create.PersistentVolume
-I need a new pod;;;;;;;;;Kubernetes.Create.Pod
+I need a new persistent volume for my pod;;;;;;;;;Kubernetes.Create.PersistentVolume
+create a volume for my pod;;;;;;;;;Kubernetes.Create.PersistentVolume
+I need a pod;;;;;;;;;Kubernetes.Create.Pod
 need new pod;;;;;;;;;Kubernetes.Create.Pod
 new pod please;;;;;;;;;Kubernetes.Create.Pod
+Could you please create a deployment?;;;;;;;;;Kubernetes.Create.Deployment
+Please create a deployment for me;;;;;;;;;Kubernetes.Create.Deployment
+I need a deployment;;;;;;;;;Kubernetes.Create.Deployment
+Create a deployment;;;;;;;;;Kubernetes.Create.Deployment
+Please create a new deployment;;;;;;;;;Kubernetes.Create.Deployment
+Please create a new pod for me;;;;;;;;;Kubernetes.Create.Pod
+Please create a new pod;;;;;;;;;Kubernetes.Create.Pod
+Could you please create a new pod?;;;;;;;;;Kubernetes.Create.Pod
+Could you please create a new deployment for me?;;;;;;;;;Kubernetes.Create.Deployment
+Could you please create a new deployment?;;;;;;;;;Kubernetes.Create.Deployment
+Please create a pod for me;;;;;;;;;Kubernetes.Create.Pod
+Could you please create a new pod for me?;;;;;;;;;Kubernetes.Create.Pod
+Could you please create a pod?;;;;;;;;;Kubernetes.Create.Pod
+Please create a pod;;;;;;;;;Kubernetes.Create.Pod
+Couold you please create a new persistent volume?;;;;;;;;;Kubernetes.Create.PersistentVolume
+Couold you please create a new persistent volume for me?;;;;;;;;;Kubernetes.Create.PersistentVolume
+Couold you please create a persistent volume?;;;;;;;;;Kubernetes.Create.PersistentVolume
+Couold you please create a persistent volume for me?;;;;;;;;;Kubernetes.Create.PersistentVolume
+Please create a new persistent volume;;;;;;;;;Kubernetes.Create.PersistentVolume
+Please delete a persistent volume;;;;;;;;;Kubernetes.Delete.PersistentVolume
+Please delete persistent volume;;;;;;;;;Kubernetes.Delete.PersistentVolume
+Please delete a volume;;;;;;;;;Kubernetes.Delete.PersistentVolume
+Please create a volume;;;;;;;;;Kubernetes.Create.PersistentVolume
+Create a volume;;;;;;;;;Kubernetes.Create.PersistentVolume
+Please delete deployment;;;;;;;;;Kubernetes.Delete.Deployment
+Delete deployment please;;;;;;;;;Kubernetes.Delete.Deployment
+Could you please delete a deployment;;;;;;;;;Kubernetes.Delete.Deployment
+I need you to delete a deployment;;;;;;;;;Kubernetes.Delete.Deployment
+Could you create a pod for me?;;;;;;;;;Kubernetes.Create.Pod
+Could you create a pod?;;;;;;;;;Kubernetes.Create.Pod
+I need a new pod;;;;;;;;;Kubernetes.Create.Pod
+I need a new deployment;;;;;;;;;Kubernetes.Create.Deployment
