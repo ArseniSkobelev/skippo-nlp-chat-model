@@ -1,1 +1,5 @@
 venv
+datasets
+models
+.idea
+.DS_Store
