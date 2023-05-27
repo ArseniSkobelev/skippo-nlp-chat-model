@@ -20,9 +20,9 @@ app = Flask(__name__)
 
 model = None
 
-dotenv.load_dotenv('.env')
+# dotenv.load_dotenv('.env')
 
-_threshold = os.getenv("threshold")
+_threshold = float(os.getenv("THRESHOLD"))
 
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 app.config['UPLOAD_EXTENSIONS'] = ['csv']
@@ -199,4 +199,4 @@ if __name__ == '__main__':
         pass
 
     load_model()
-    app.run(debug=False)
+    app.run(debug=False, host='0.0.0.0', port=5001)
