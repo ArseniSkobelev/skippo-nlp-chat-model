@@ -3,3 +3,4 @@ datasets
 models
 .idea
 .DS_Store
+.env
