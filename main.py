@@ -139,7 +139,7 @@ def new_model():
     now = datetime.now()
     formatted_date = now.strftime("%d-%m-%y")
 
-    joblib.dump(recent_model, filename=f'./models/model-{formatted_date}.joblib')
+    joblib.dump(recent_model, filename=f'/app/data/models/model-{formatted_date}.joblib')
 
     model = recent_model
 
