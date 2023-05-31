@@ -218,4 +218,12 @@ if __name__ == '__main__':
         load_model()
     except:
         pass
+    try:
+        os.makedirs("/app/data/datasets")
+    except:
+        pass
+    try:
+        os.makedirs("/app/data/models")
+    except:
+        pass
     app.run(debug=False, host='0.0.0.0', port=5000)
