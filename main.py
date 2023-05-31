@@ -154,6 +154,32 @@ def new_model():
         mimetype="application/json"
     )
 
+def create_model(dataset):
+    df = pd.read_csv(dataset, sep=';')
+    df = df[pd.notnull(df['InputData'])]
+
+    df['InputData'] = df['InputData'].apply(clean_text)
+
+    X = df.InputData
+    y = df.Function
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+    from sklearn.naive_bayes import MultinomialNB
+    from sklearn.pipeline import Pipeline
+    from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
+
+    recent_model = Pipeline([('vect', CountVectorizer()),
+                             ('tfidf', TfidfTransformer()),
+                             ('clf', MultinomialNB()),
+                             ])
+    recent_model.fit(X_train, y_train)
+
+    now = datetime.now()
+    formatted_date = now.strftime("%d-%m-%y")
+
+    joblib.dump(recent_model, filename=f'./models/model-{formatted_date}.joblib')
+
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -188,15 +214,7 @@ def predict():
 
 
 if __name__ == '__main__':
-    try:
-        os.makedirs("./models")
-    except:
-        pass
-
-    try:
-        os.makedirs("./datasets")
-    except:
-        pass
+    create_model('./init.csv')
 
     load_model()
     app.run(debug=False, host='0.0.0.0', port=5001)
