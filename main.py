@@ -26,8 +26,8 @@ _threshold = float(os.getenv("THRESHOLD"))
 
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 app.config['UPLOAD_EXTENSIONS'] = ['csv']
-app.config['UPLOAD_PATH'] = './models'
-app.config['DATASET_DIR_PATH'] = './datasets'
+app.config['UPLOAD_PATH'] = '/app/data/models'
+app.config['DATASET_DIR_PATH'] = '/app/data/datasets'
 
 REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
 BAD_SYMBOLS_RE = re.compile('[^0-9a-z #+_]')
@@ -48,7 +48,7 @@ def clean_text(text):
 
 
 def load_model():
-    model_files = glob.glob('models/model-*.joblib')
+    model_files = glob.glob('/app/data/models/model-*.joblib')
     if not model_files:
         raise FileNotFoundError("No model files found.")
 
@@ -61,7 +61,7 @@ def load_model():
 
 
 def get_latest_dataset():
-    dataset_files = glob.glob('datasets/dataset-*.csv')
+    dataset_files = glob.glob('/app/data/datasets/dataset-*.csv')
     if not dataset_files:
         raise FileNotFoundError("No model files found.")
 
@@ -214,7 +214,15 @@ def predict():
 
 
 if __name__ == '__main__':
-    create_model('./init.csv')
+    try:
+        os.makedirs(name="/app/data/models")
+    except:
+        pass
+    try:
+        os.makedirs(name="/app/data/datasets")
+    except:
+        pass
+    create_model('/app/data/init.csv')
 
     load_model()
     app.run(debug=False, host='0.0.0.0', port=5001)
