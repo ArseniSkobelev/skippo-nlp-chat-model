@@ -215,14 +215,7 @@ def predict():
 
 if __name__ == '__main__':
     try:
-        os.makedirs(name="/app/data/models")
+        load_model()
     except:
         pass
-    try:
-        os.makedirs(name="/app/data/datasets")
-    except:
-        pass
-    create_model('/app/data/init.csv')
-
-    load_model()
     app.run(debug=False, host='0.0.0.0', port=5000)
